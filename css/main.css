@@ -811,7 +811,7 @@ header .row {
  * header logo - (_layout.css) 
  * ------------------------------------------------------------------- */
 header .logo {
-	position: absolute;
+	/* position: absolute; */
 	left: 26px;
 	top: 0;
 	margin-top: 78px;
@@ -928,6 +928,8 @@ header .social-links ul li a:focus {
 }
 @media only screen and (max-width:500px) {
 	header .logo {
+		width: 100px !important;
+
 		left: 35px;
 	}
 	header .social-links {
@@ -944,6 +946,7 @@ header .social-links ul li a:focus {
 	header .logo {
 		left: 30px;
 		margin-top: 30px;
+		width: 100px !important;
 	}
 	header .logo a {
 		width: 60px;
