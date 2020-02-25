@@ -100,7 +100,57 @@
     .upperHeaer{
     font-size: 6rem  ;
   }
+
+  .vie_title{
+    font-size: 1.5rem;
+    color: white;
+    background-color: grey !important;
+    padding: 10px;
+    border-radius: 30px;
+  }
     
+  .vie_title:hover{
+    font-size: 1.5rem;
+    color: white;
+   cursor: pointer;
+   background-color: rgb(54, 201, 144) !important; 
+ 
+  }
+    
+  .wrap {
+  height: 100%;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.button {
+  /* width: 140px; */
+  /* height: 45px; */
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  text-align: left !important;
+ 
+  
+  }
+
+.button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 10px 15px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-5px);
+}
     @media (min-width: 320px) and (max-width: 480px) {
  
   .upperHeaer{
@@ -216,7 +266,14 @@
                 <p class="lucidexname">
 					Lucidex Software Solutions
 				</p>
-				
+        
+        <div class="wrap">
+         
+          <button class="button" onclick="window.location.href = 'http://projects.lucidex.lk/';"> View Projects</button> 
+        </div>
+        <!-- <div class="view_project">
+          <a  class="vie_title"> View Projects</a>
+        </div> -->
 			</div>
 
               </div>
@@ -250,6 +307,9 @@
           <ul class="tabs" data-aos="fade-up">
             <li class="active" data-id="tab-about">
               <i class="icon-user"></i><span>About</span>
+            </li>
+            <li class="active" data-id="tab-about" onclick="window.location.href = 'http://projects.lucidex.lk/';">
+              <i class="icon-user"></i><span>View Our Project</span>
             </li>
             <!-- <li data-id="tab-contact"><i class="icon-mail"></i><span>Contact</span></li>							
 					<li data-id="tab-subscribe"><i class="icon-newspaper"></i><span>Subscribe</span></li>				 -->
@@ -530,11 +590,11 @@ data-aos-easing="ease-in-sine">
 <div class="row"  >
   
 
-  <center>
+  <!-- <center>
 
      <a  class="twitter-timeline" href="https://twitter.com/lucidex_?ref_src=twsrc%5Etfw"  width="340" height="500" > </a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </center>
-
+ -->
 
 
    </div>
@@ -582,7 +642,7 @@ data-aos-easing="ease-in-sine">
         <a href="#top" class="smoothscroll" style="border-radius: 25px 25px 0px 0px; height: 40px; font-size: 12px; "><span>Back to Top</span></a>
       </div>
 
-      <script src="https://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+      <!-- <script src="https://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script> -->
 <script type="IN/FollowCompany" data-id="31043839" data-counter="bottom"></script>
   </footer>
   
